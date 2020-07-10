@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MovieGuideKotlin</string>
+    <string name="menu_search">Search</string>
+    <string name="query_hint">Search Any Movies</string>
+    <string name="cast_as_character">as %1$s</string>
+    <string name="vote_count">%1$d Votes</string>
+
+</resources>
