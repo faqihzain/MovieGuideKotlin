@@ -21,7 +21,9 @@
             android:layout_height="match_parent"
             app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
             app:layout_behavior="@string/appbar_scrolling_view_behavior"
-            app:videoAdapterList="@{viewModel.movieDetails}" />
+            app:videoAdapterList="@{viewModel.movieDetails}"
+            app:spanCount="2"
+            tools:listitem="@layout/item_trailer"/>
         <ProgressBar
             android:id="@+id/detail_progress_bar"
             app:detailProgressBarVisibility="@{viewModel.movieDetails}"
